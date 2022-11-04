@@ -968,7 +968,7 @@ function! s:close_pane()
     pc
     let b:plug_preview = -1
   else
-    bd
+    quit
   endif
 endfunction
 
